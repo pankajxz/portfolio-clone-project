@@ -1,0 +1,240 @@
+.rowprojects{
+    color:white;
+    max-width:1530px;
+    padding:0px 80px;
+    background-color:#6a5acd;
+}
+
+.projecttext{
+    padding-top:50px;
+    width:100vw;
+    position:relative;
+}
+.projectsbtn{
+    width:30%;
+    align-self:end;
+    border:none;
+    cursor:pointer;
+    background-color:#ccff00;
+    color:black;
+    font-size:25px;
+    padding:16px 4px;
+    border-radius:50px;
+}
+.projects{
+    letter-spacing:3px;
+    margin:0;
+}
+.projectstitle{
+    font-size:77px;
+    font-weight:500;
+    letter-spacing:3px;
+    word-spacing:3px;
+}
+
+
+.projectcardcontainer{
+    width:100vw;
+    height:auto;
+    background-color:rgba(255,255,255,0.3);;
+    display:flex;
+    flex-wrap:wrap;
+    border-radius:30px;
+    gap:4rem;
+    padding:13px 10px 13px 20px ;
+}
+.projectcardcontainer2{
+    width:100vw;
+    height:auto;
+    background-color:rgba(255,255,255,0.3);;
+    display:flex;
+    flex-wrap:wrap;
+    border-radius:30px;
+    gap:4rem;
+    padding:13px 10px 13px 20px ;
+    margin-bottom:20px;
+}
+
+.img98{
+    width:37vw;
+    height:27vw;
+    overflow:hidden;
+    border-radius:30px;
+}
+.img98 img{
+    width:100%;
+    height:100%;
+    border-radius:30px;
+}
+
+.img99{
+    width:37vw;
+    height:27vw;
+    overflow:hidden;
+    border-radius:20px;
+}
+
+.img99 img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:%;
+}
+
+.pcardtext h3{
+   width:145px;
+   height:40px;
+   background-color:#ccff00;
+   border-radius:40px;
+   font-size:16px;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   color:black
+}
+.pcardtext button{
+    border:none;
+    cursor:pointer;
+    background-color:#ccff00;
+    color:black;
+    font-size:25px;
+    padding:17px 60px;
+    border-radius:50px;
+}
+.pcardtext{
+    gap:0rem;
+    padding:13px 10px 13px 20px;
+}
+.pcardtext p{
+    font-size:17px;
+    padding:2px 0px;
+}
+
+.lest{
+    color:#ccff00;
+}
+.divhorline{
+    height:1px;
+    width:100%;
+    background-color:gray;
+}
+
+@media screen and (max-width: 1200px) {
+  
+    .pcardtext{
+        gap:13px;
+        padding-top:0.6rem
+    }
+    .pcardtext p{
+        font-size:0.9rem;
+    }
+    .pcardtext h1{
+        font-size:1.7rem
+    }
+    .pcardtext h3{
+        width:127px;
+        height:35px;
+        background-color:#ccff00;
+        border-radius:40px;
+        font-size:16px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        color:black
+     }
+     .pcardtext button{
+        border:none;
+        cursor:pointer;
+        background-color:#ccff00;
+        color:black;
+        font-size:20px;
+        padding:10px 50px;
+        border-radius:50px;
+    }
+}
+
+
+@media screen and (max-width: 960px) {
+    .pcardtext{
+        gap:1px;
+        padding-top:0.4rem
+    }
+    .pcardtext p{
+        font-size:0.8rem;
+    }
+    .pcardtext h1{
+        font-size:1.4rem
+    }
+    .pcardtext h3{
+        width:70px;
+        height:25px;
+        background-color:#ccff00;
+        border-radius:40px;
+        font-size:10px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        color:black
+     }
+     .pcardtext button{
+        border:none;
+        cursor:pointer;
+        background-color:#ccff00;
+        color:black;
+        font-size:20px;
+        padding:1px 25px;
+        border-radius:50px;
+    }
+    .projectcardcontainer{
+        width:100vw;
+        height:auto;
+        background-color:rgba(255,255,255,0.3);;
+        display:flex;
+        flex-wrap:wrap;
+        border-radius:30px;
+        gap:4rem;
+        justify-content:center;
+        padding:13px 10px 13px 20px ;
+    }
+    .projectcardcontainer2{
+        width:100vw;
+        height:auto;
+        background-color:rgba(255,255,255,0.3);;
+        display:flex;
+        flex-wrap:wrap;
+        border-radius:30px;
+        gap:4rem;
+        justify-content:center;
+        padding:13px 10px 13px 20px ;
+    }
+
+    .rowprojects{
+        color:white;
+        max-width:1530px;
+        padding:0px 80px;
+        background-color:#6a5acd;
+    }
+    
+    .projecttext{
+        padding-top:40px;
+        width:100vw;
+        position:relative;
+    }
+    .projectsbtn{
+        width:30%;
+        align-self:end;
+        border:none;
+        cursor:pointer;
+        background-color:#ccff00;
+        color:black;
+        font-size:18px;
+        padding:3px 3px;
+        border-radius:50px;
+    }
+    .projectstitle{
+        font-size:63px;
+        font-weight:500;
+        letter-spacing:5px;
+        word-spacing:3px;
+    }
+}

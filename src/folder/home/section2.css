@@ -1,0 +1,372 @@
+.section2binder{
+  background:url("./src/assets/images/bgsec2.jpg");
+  background-size:cover;
+}
+.sec2sliderbtn{
+
+}
+
+.sliderwrapper{
+    border:2px solid blue;
+    border-radius:50px;
+    display:flex;
+    flex-wrap:wrap;
+    padding:0px 0px 0px 70px;
+    cursor:pointer;
+    transition: all 0.5s ease;
+    position:relative;  
+    width:65%;
+    border:none;
+}
+
+.sliderwrapper:hover{
+    width:66%;
+    padding:-10px 0px 0px 60px;
+    transition: all 0.5s ease;
+    display:flex;
+    background-color:#6a5acd;
+    border:none;
+}
+.swh3{
+    height:72px;
+    width:248px;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    background-color:rgba(0,0,0,0.1);
+    justify-content:center;
+    border-radius:55px;
+    color:white;
+    font-weight:500;
+    font-size:1.3rem;
+    position:relative;
+    margin:0px 0px 0px 5px;
+
+}
+.swh3:hover{
+    
+}
+
+.swico{
+    color:snow;
+    background-color:transparent;
+    border-radius:50%;
+    border:none;
+    font-size:60px;
+    display:flex;
+    transition: all 0.5s ease;
+    position: absolute;
+    left:0;
+    top:2;
+    padding:0px 0px 0px 5px;
+    margin:0px;
+}
+.swico:hover{
+    position:absolute;
+    z-index:0;
+    padding-left:85px;
+    color:snow;
+    background-color:transparent;
+    transition: all 0.5s ease;
+    width:80%;
+}
+.cardbtnsec2 svg{
+    padding-top:3px;
+    font-size:24px;
+    padding-left:8px
+}
+.ico h1{
+    font-size:140px;
+    background-color:orage;
+    border-radius:50%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-self:center;
+    padding-top:6px;
+    padding-bottom:6px;
+    color:snow;
+}
+.uiuxcards{
+    background-color:rgba(255,255,255,0.1);
+    border:px solid gray;
+    border-radius:110px;
+    width:26%;
+    max-height:510px;
+    padding:45px 18px;
+    margin-bottom:40px;
+    cursor:pointer;
+    transition:all 220ms ease-in-out;
+}
+.uiuxcards:hover{
+    background-color:rgba(0,0,0,0.1);
+   
+    transform:scale(104%);
+    transition:all 300ms ease-in-out;
+}
+
+.ico h1:hover{
+    color:snow;
+    transform:scale(110%);
+    transition:all 300ms ease-in-out;
+}
+
+.uiuxcards:hover,
+.psec2card:hover{
+    color:blue;
+}
+
+.sec2cardh1:hover{
+    color:snow;
+    transform:scale(104%);
+    transition:all 300ms ease-in-out;
+}
+
+.cardbtnsec2:hover{
+    letter-spacing:2.8px
+}
+
+.uiuxcardbinder{
+    gap:4rem;
+    padding:2.6rem;
+}
+
+.sec2cardh1{
+    color:snow;
+    letter-spacing:2.0px;
+    font-size:2.0rem;
+    font-weight:800;
+    transition:all 0.4s ease;
+    background-color:transparent;
+}
+
+.psec2card{
+    word-spacing:2px;
+    letter-spacing:1.6px;
+    font-size:1.0rem;
+    color:snow;
+}
+
+.cardbtnsec2{
+    border:none;
+    width:190px;
+    align-self:center;
+    color:#353e43;
+    background-color:rgba(0,0,0,0.0); 
+    font-size:17px;
+    padding:0px 0px;
+    margin:0px 0px;
+    opacity:0.7;
+    letter-spacing:1.8px;
+    transition:all 0.4s ease;
+}
+
+@media screen and (max-width: 1200px) {
+    .uiuxcards{
+        background-color:rgba(255,255,255,0.1);
+        border:px solid gray;
+        border-radius:110px;
+        width:36%;
+        max-height:510px;
+        padding:45px 18px;
+        margin-bottom:40px;
+        cursor:pointer;
+        transition:all 220ms ease-in-out;
+    }
+    .swh3{
+        height:52px;
+        width:150px;
+        display:flex;
+        flex-wrap:wrap;
+        align-items:center;
+        background-color:rgba(0,0,0,0.1);
+        justify-content:center;
+        border-radius:55px;
+        color:white;
+        font-weight:700;
+        font-size:1rem;
+        position:relative;
+        margin:0px 0px 0px 0px;
+    }
+    .swico{
+        color:snow;
+        background-color:transparent;
+        border-radius:50%;
+        border:none;
+        font-size:48px;
+        display:flex;
+        transition: all 0.5s ease;
+        position: absolute;
+        left:0;
+        top:2;
+        padding:0px 0px 0px 15px;
+        margin:0px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .uiuxcards{
+        background-color:rgba(255,255,255,0.1);
+        border:px solid gray;
+        border-radius:110px;
+        width:45%;
+        max-height:510px;
+        padding:45px 18px;
+        margin-bottom:40px;
+        cursor:pointer;
+        transition:all 220ms ease-in-out;
+    }
+    .swico{
+        color:snow;
+        background-color:transparent;
+        border-radius:50%;
+        border:none;
+        font-size:38px;
+        display:flex;
+        transition: all 0.5s ease;
+        position: absolute;
+        left:0;
+        top:2;
+        padding:0px 0px 0px 1px;
+        margin:0px;
+    }
+    .swh3{
+        height:52px;
+        width:30vw;
+        display:flx;
+        flex-wrap:wrp;
+        align-items:center;
+        background-color:rgba(0,0,0,0.1);
+        justify-content:center;
+        border-radius:55px;
+        color:white;
+        font-weight:400;
+        font-size:1rem;
+        position:relative;
+        margin:0px 0px 0px 0px;
+    }
+    .sliderwrapper{
+        border:2px solid blue;
+        border-radius:50px;
+        display:flex;
+        flex-wrap:wrap;
+        padding:0px 0px 0px 50px;
+        cursor:pointer;
+        transition: all 0.5s ease;
+        position:relative;  
+        width:26vw;
+        border:none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .uiuxcards{
+        background-color:rgba(255,255,255,0.1);
+        border:px solid gray;
+        border-radius:110px;
+        width:69%;
+        max-height:500px;
+        padding:45px 18px;
+        margin-bottom:40px;
+        cursor:pointer;
+        transition:all 220ms ease-in-out;
+    }
+    .swh3{
+        height:42px;
+        width:40vw;
+        display:flex;
+        flex-wrap:wrap;
+        align-items:center;
+        background-color:rgba(0,0,0,0.1);
+        justify-content:center;
+        border-radius:55px;
+        color:white;
+        font-weight:400;
+        font-size:1rem;
+        position:relative;
+        margin:0px 0px 0px 0px;
+    }
+    .sliderwrapper{
+        border:2px solid blue;
+        border-radius:50px;
+        display:flex;
+        flex-wrap:wrap;
+        padding:0px 0px 0px 40px;
+        cursor:pointer;
+        transition: all 0.5s ease;
+        position:relative;  
+        width:26vw;
+        border:none;
+    }
+    .swico{
+        color:snow;
+        background-color:transparent;
+        border-radius:50%;
+        border:none;
+        font-size:32px;
+        display:flex;
+        transition: all 0.5s ease;
+        position: absolute;
+        left:0;
+        top:2;
+        padding:0px 0px 0px 1px;
+        margin:0px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+ 
+    .uiuxcards{
+        background-color:rgba(255,255,255,0.1);
+        border:px solid gray;
+        border-radius:110px;
+        width:95%;
+        max-height:500px;
+        padding:45px 18px;
+        margin-bottom:0px;
+        cursor:pointer;
+        transition:all 220ms ease-in-out;
+    }
+    .swh3{
+        height:34px;
+        width:25vw;
+        display:flex;
+        flex-wrap:wrap;
+        align-items:center;
+        background-color:rgba(0,0,0,0.1);
+        justify-content:center;
+        border-radius:55px;
+        color:white;
+        font-weight:400;
+        font-size:0.7rem;
+        position:relative;
+        margin:0px 0px 0px 0px;
+    }
+    .sliderwrapper{
+        border-radius:50px;
+        display:flex;
+        flex-wrap:wrap;
+        padding:0px 0px 0px 0px;
+        cursor:pointer;
+        transition: all 0.5s ease;
+        position:relative;  
+        width:27vw;
+        border:none;
+    }
+    .swico{
+        color:snow;
+        background-color:transparent;
+        border-radius:50%;
+        border:none;
+        font-size:28px;
+        display:none;
+        transition: all 0.5s ease;
+        position: absolute;
+        left:0;
+        top:2;
+        padding:0px 0px 0px 1px;
+        margin-:10px;
+    }
+
+
+}

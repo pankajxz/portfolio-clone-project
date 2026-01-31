@@ -1,0 +1,93 @@
+.contactcontainer{
+    background-color:#6a5acd;
+    height:100vh;
+}
+.contact{
+    letter-spacing:1px;
+    font-weight:400;
+}
+.connecttext{
+    color:#98fbcb;
+    font-weight:600;
+    letter-spacing:1px;
+}
+.collabtext{
+    color:#98fbcb             ;
+    font-weight:600;
+    letter-spacing:1px;
+}
+.phno {
+  
+}
+.phnoico{
+    background-color:transparent;
+    border-radius:50%;
+    border:2px solid #98fbcb;
+    padding:8px 8px 11px 11px;
+    color:#98fbcb
+}
+.gmail{
+
+}
+.gmailico{
+    background-color:transparent;
+    border-radius:50%;
+    border:2px solid #98fbcb;
+    padding:8px 11px 9px 11px;
+    color:#98fbcb
+}
+.example{
+
+}
+.exico{
+    background-color:transparent;
+    border-radius:50%;
+    border:2px solid #98fbcb;
+    padding:8px 11px 9px 11px;
+    color:#98fbcb
+}
+.address{
+
+}
+.addressico{
+    background-color:transparent;
+    border-radius:50%;
+    border:2px solid #98fbcb;
+    padding:8px 11px 9px 11px;
+    color:#98fbcb;
+}
+
+
+.ifile{
+    padding:20px;
+    width:330px;
+    border-radius:50px;
+    margin:17px;
+    background-color:#d9d9d9;
+    border:1.5px solid beige;
+    color:black;
+}
+.subject{
+    padding:20px 25px;
+    width:690px;
+    border-radius:50px;
+    margin:17px;
+    background-color:#d9d9d9;
+    border:1.5px solid beige;
+    color:black;
+}
+.message{
+    width:690px;
+    border-radius:45px;
+    margin:17px;
+    background-color:#d9d9d9;
+    border:1.5px solid beige;
+    color:black;
+    height:260px;
+    padding:20px 25px;
+}
+
+input.placeholder{
+    font-size:20px;
+    color:black;
+}
