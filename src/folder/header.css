@@ -1,17 +1,17 @@
 
 .fluidheader{
-    background-color:white;
+    background-color:#46188a;
+    padding:0rem 1rem;
 }
 .navlogo{
     display:block;
-    padding-left:5rem;
-    width:150px;
+    margin-left:5rem;
+    width:82px;
 }
 .navlogo img{
     width:100%;
     height:auto;
     object-fit:contain;
-    margin-bottom:5px;
 }
 .navbarul{
     display:flex;
@@ -26,18 +26,19 @@
     
 }
 .navbarul a{
-    color:black;
+    color:white;
     list-style-type:none;
     text-decoration:none;
 }
 
 .btnheader{
-    margin-top:20px;
+    margin-top:0.5rem;;
     margin-left:5em;
+    align-self:start;
 }
 .btnhome1{
     border-radius: 8px;
-    border:2px solid #6a5acd;
+    border:2px solid white;
     padding: 0.8em 1.9em;
     font-size: 1em;
     font-weight: 500;
@@ -45,15 +46,20 @@
     background-color: transparent;
     cursor: pointer;
     transition: border-color 0.25s;
-    color:#6a5acd;
+    color:white;
 
 }
 a.active {
-    color:#6a5acd;
+    color:snow;
     border-radius:7px;
     text-decoration: underline;
-    text-decoration-color:#6a5acd;
+    text-decoration-color:snow;
 }
 .bg-dark{
     background-color:white;
+}
+.navbarr{
+    display:flex;
+    align-items:center;
+    margin-top:1rem;
 }

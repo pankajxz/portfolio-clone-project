@@ -2,7 +2,11 @@
   margin:0;
   padding:0;
   box-sizing:border-box;
+  --bg-color:#46188a;
+  --bg-color2:#909eae;
+  --btn-color:#46188a;
   
+  /* #353839 */
  
 }
 

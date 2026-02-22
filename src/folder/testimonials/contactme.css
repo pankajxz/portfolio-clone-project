@@ -1,6 +1,6 @@
 .contactcontainer{
-    background-color:#6a5acd;
-    height:100vh;
+    background-color:var(--bg-color);
+    height:110vh;
 }
 .contact{
     letter-spacing:1px;
@@ -12,7 +12,7 @@
     letter-spacing:1px;
 }
 .collabtext{
-    color:#98fbcb             ;
+    color:#98fbcb;             ;
     font-weight:600;
     letter-spacing:1px;
 }
@@ -63,7 +63,7 @@
     width:330px;
     border-radius:50px;
     margin:17px;
-    background-color:#d9d9d9;
+    background-color:white;
     border:1.5px solid beige;
     color:black;
 }
@@ -72,22 +72,31 @@
     width:690px;
     border-radius:50px;
     margin:17px;
-    background-color:#d9d9d9;
+    background-color:white;
     border:1.5px solid beige;
     color:black;
 }
 .message{
-    width:690px;
+    width:45vw;
     border-radius:45px;
     margin:17px;
-    background-color:#d9d9d9;
+    background-color:white;
     border:1.5px solid beige;
     color:black;
-    height:260px;
+    height:44.5vh;
     padding:20px 25px;
 }
 
-input.placeholder{
-    font-size:20px;
-    color:black;
+::placeholder{
+    font-size:0.9rem;
+    color:darkgray;
+    position:absolute;
+    top:24px;
+}
+
+#message::placeholder{
+    font-size:0.9rem;
+    color:darkgray;
+    position:absolute;
+    top:35px;
 }

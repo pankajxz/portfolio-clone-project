@@ -1,8 +1,8 @@
 .rowprojects{
-    color:white;
+    color:black;
     max-width:1530px;
     padding:0px 80px;
-    background-color:#6a5acd;
+    background-color:#ccccff;
 }
 
 .projecttext{
@@ -15,44 +15,49 @@
     align-self:end;
     border:none;
     cursor:pointer;
-    background-color:#ccff00;
-    color:black;
+    background-color:#6a11cb;
+    color:white;
     font-size:25px;
     padding:16px 4px;
     border-radius:50px;
+    border:2px solid lightgray;
 }
 .projects{
-    letter-spacing:3px;
+    letter-spacing:2px;
     margin:0;
+    color:#46188a;
 }
 .projectstitle{
     font-size:77px;
-    font-weight:500;
+    font-weight:700;
     letter-spacing:3px;
     word-spacing:3px;
+    font-size:4.2rem;
 }
 
 
 .projectcardcontainer{
     width:100vw;
     height:auto;
-    background-color:rgba(255,255,255,0.3);;
+    background-color:rgba(0,0,0,0.5);
     display:flex;
     flex-wrap:wrap;
     border-radius:30px;
     gap:4rem;
     padding:13px 10px 13px 20px ;
+    border:2px solid snow;
 }
 .projectcardcontainer2{
     width:100vw;
     height:auto;
-    background-color:rgba(255,255,255,0.3);;
+    background-color:rgba(0,0,0,0.5);
     display:flex;
     flex-wrap:wrap;
     border-radius:30px;
     gap:4rem;
     padding:13px 10px 13px 20px ;
     margin-bottom:20px;
+    border:2px solid snow;
 }
 
 .img98{
@@ -66,6 +71,13 @@
     height:100%;
     border-radius:30px;
 }
+.img98:hover{
+    width:100%;
+    height:100%;
+    border-radius:30px;
+    transform:scale(1.1);
+    transition:all 300ms ease-in-out;
+}
 
 .img99{
     width:37vw;
@@ -73,36 +85,44 @@
     overflow:hidden;
     border-radius:20px;
 }
+.img99:hover{
+    width:37vw;
+    height:27vw;
+    overflow:hidden;
+    border-radius:20px;
+    transform:scale(1.1);
+    transition:all 300ms ease-in-out;
+}
 
 .img99 img{
     width:100%;
     height:100%;
     object-fit:cover;
-    object-position:%;
 }
 
 .pcardtext h3{
    width:145px;
    height:40px;
-   background-color:#ccff00;
+   background-color:var(--btn-color);
    border-radius:40px;
    font-size:16px;
    display:flex;
    align-items:center;
    justify-content:center;
-   color:black
+   color:white;
 }
 .pcardtext button{
     border:none;
     cursor:pointer;
-    background-color:#ccff00;
-    color:black;
+    background-color:var(--btn-color);
+    color:white;
     font-size:25px;
     padding:17px 60px;
     border-radius:50px;
 }
 .pcardtext{
     gap:0rem;
+    color:white;
     padding:13px 10px 13px 20px;
 }
 .pcardtext p{
@@ -111,12 +131,13 @@
 }
 
 .lest{
-    color:#ccff00;
+    color:black;
 }
 .divhorline{
     height:1px;
     width:100%;
-    background-color:gray;
+    background-color:#6a11cb;
+    margin-bottom:2rem;
 }
 
 @media screen and (max-width: 1200px) {

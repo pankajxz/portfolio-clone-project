@@ -1,38 +1,42 @@
 import React from 'react'
-import Kubernatives from "../../assets/images/kubernatives.png"
 import "./home.css"
 import Pluscard from "../home/pluscard"
-import Homepicturee from "../home/homepicture"
-import Homebtns from "../home/homebtns"
 import Section2 from "../home/section2"
 import About from "../about/about"
 import Contactme from "../testimonials/contactme"
 import Projects from "../projects/projects"
+import Portfoliopage from "../myworks/PortfolioPage"
+import Homeimg from "../../assets/images/2021.png"
+import Homebtn from "../../folder/home/homebtns"
 
-const home = () => {
+export const Home = () => {
+   
     return (
         <>
         <div className="homebinder">
          <div className="container-fluid">
-            <div className="row section_onebg">
-            <div className="col-10  hellotext d-flex flex-column align-items-center text-center flex-wrap gap-3 pt-8">
-              <h3 className="h3hello text-black">-Hello</h3>
-              <h1 className="h1hello text-black">I'm <span className="pankaj">Pankaj,</span><br/>Product Designer</h1>
+            <div className="row section_onebg">       
+            <div className=" imgcontainer">
+                <img src={Homeimg} alt=""/>
             </div>
-            <div className="col-2 kuber">
-              <img src={Kubernatives} alt=""/>
+          
+            <div className="hellotext d-flex flex-column align-items-center text-center flex-wrap gap-3 pt-8">
+              <div className="h3hello col-12 text-black">-Hello</div>
+              <h1 className="col-12 h1hello text-black">I'm <span className="pankaj">Pankaj,</span><br/>Web Designer</h1>
+              <Pluscard />
+              <Homebtn />
             </div>
-             <Pluscard />
-             <Homebtns />
             </div>
+            
         </div>
         <Section2 />
-        <About />
-        <Projects />
+        <Portfoliopage />
+        <Projects />  
         <Contactme />
         </div>
         </>
+        
     )
 }
 
-export default home
+export default Home

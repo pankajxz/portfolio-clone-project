@@ -15,13 +15,13 @@ import {
     Routes,
     Route,
   } from "react-router-dom";
-
+  
 const pages = () => {
     return (
         <>
             <Router>
-                <MaybeShowNavBar>
-                <MovingLine />
+               <MaybeShowNavBar>
+                
                 <Header />
                 </MaybeShowNavBar>
                 <Routes>

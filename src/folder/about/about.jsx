@@ -19,7 +19,7 @@ const about = () => {
         <>
            <div className="container-fluid aboutcont">
                <div className="row">
-             <div className="about_page p-5 mt-5 d-flex flex-wrap">
+             <div className="about_page d-flex flex-wrap">
                  <div className="col-6 about_logo d-flex flex-wrap flex-column">
                    <img src={aboutimg} alt="book"/>
                  </div>
@@ -30,7 +30,7 @@ const about = () => {
                      <div className="row">
                      <div className="col-6 d-flex flex-wrap flex-column projectleft">
                          <h4 className="fw-bold">600+</h4>
-                         <h2 className="fw-light h3 pb-5 pt-1">Project Completed</h2>
+                         <h2 className="fw-light h3 pb-3 pt-1">Project Completed</h2>
                          <a href="circle2.jpg" download = ""></a>
                          <button onClick={()=>{downloadFileAtURL(JPG_FILE_URL);
                         }} 
@@ -44,7 +44,7 @@ const about = () => {
                      </div>
                  </div>
              </div>
-             <div className="row">
+             <div className="row aboutsecond">
                  <div className="workhead col-12 ">
                      <div className="worktitle d-flex flex-wrap flex-column text-center pt-5 pb-5">
                          <h3>-Education & Work</h3>

@@ -13,17 +13,17 @@ export const section2 = () => {
             <div className="col-12 uiuxcardbinder d-flex flex-wrap justify-content-center">
             <Sec2cards 
             title="UI/UX designer"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, est"
+            description="Crafting inutiative and engaging designs that enhance user experiances with a perfect blend of aesthetics and usability and focus on aesthetics and usability"
             icon={<SiInfluxdb />}
             />
             <Sec2cards
              title="Front-end designer"
-             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, est?"
+             description="Building fast, responsive, and scalable web applications that are optimised for various devices and browsers, using modern frameworks like React"
              icon={<MdDeveloperBoard />}
              />
             <Sec2cards 
             title="Graphic designer"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, est.?"
+            description="I create visually engaging designs that communicate ideas clearly and creativity from Branding to digital Graphicss. My work focuses on strong visuals"
             icon={<SiDailydotdev />}
             />
             </div>

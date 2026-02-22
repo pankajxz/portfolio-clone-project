@@ -8,8 +8,7 @@ import "./pluscard.css"
 export const pluscard = () => {
     return (
         <>
-        <div className="col-3 cardheader ps-5 pt-5 mt-3">
-        <div className="row homecard">
+        <div className="col-12 homecard">
         <div className="pluscard d-flex flex-wrap">
         <div className="circle1"><img src={Circle1} alt=""/> </div>
         <div className="circle2"><img src={Circle2} alt=""/></div>
@@ -18,7 +17,6 @@ export const pluscard = () => {
           <h1><FaPlus /></h1>
             </div>
             </div>
-        </div>
         </div>
         </>
     )

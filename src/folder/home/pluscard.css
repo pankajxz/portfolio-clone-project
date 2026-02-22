@@ -1,22 +1,21 @@
-.cardheader{
-    width:335px;
- }
+
  .homecard{
      display:flex;
      flex-wrap:wrap;
-     align-items:center;
-     justify-content:center;
-     border:px solid beige;
+     align-items:end;
+     justify-content:flex-end;
      border-radius:50px;
-     padding:8px 7px;
-     background-color:#6D8196;
-     margin-left:40px;
-     margin-top:80px;
+     padding:0.4rem 1rem;
+     background-color:#6D816;
+     border:2px solid lightgray;
+     margin-left:49rem;
+     margin-top:4.5rem;
+     width:auto;
      box-shadow: 0 7px 9px 0px rgba(0, 0, 0, 0.2), 20px 30px 46px 0 rgba(0, 0, 0, 0.2);
  }
  .circle1{
-     height: 75px;
-     width:75px;
+     height:3vw;
+     width:3vw;
      background-color: silver;
      border-radius:50%;
      border:1px solid silver;
@@ -32,35 +31,38 @@
      display:block;
  }
  .circle2{
-     height: 78px;
-     width: 78px;
+     height: 3vw;
+     width: 3vw;
      background-color: silver;
      border-radius:50%;
-     margin-left:-37px;
+     margin-left:-30px;
      border:1px solid silver;
      box-shadow:2px 7px 10px 0 rgba(0,0,0,0.3);
  }
  .circle3{
-     height: 81px;
-     width: 81px;
+     height: 3vw;
+     width: 3vw;
      background-color: blueviolet;
      border-radius:50%;
-     margin-left:-37px;
+     margin-left:-30px;
      border:1px solid silver;
      box-shadow:2px 7px 10px 0 rgba(0,0,0,0.3);
  }
  .plusico{
-     height: 85px;
-     width: 85px;
-     align-items:center;
+     height: 3.5vw;
+     width: 3.5vw;
+     align-content:center;
      justify-content:center;
      border-radius:50%;
-     margin-left:-37px;
+     margin-left:-28px;
      box-shadow:2px 7px 10px 0 rgba(0,0,0,0.3);
-     border:px solid white;
-     background-color:whitesmoke;
-     color:black;
+     background-color:lightgray;
+     color:royalblue;
      cursor:pointer;
+ }
+ .plusico h1{
+     font-size:2rem;
+     color:black;
  }
 
 
